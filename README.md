@@ -50,7 +50,7 @@ Our best search implementation combines several sophisticated techniques to effi
 
 **4. Merge Strategy:** After retrieving and weighting the search results, we merge them using a sophisticated merging strategy. This strategy takes into account PageRank and page views (using data from August 2021) for each document, providing a comprehensive relevance score that considers both the query-document match quality and the document's popularity or importance.
 
-**5. Result Selection:** Finally, we select the top 100 merged search results based on their cumulative scores. This selection ensures that users are presented with the most relevant and authoritative documents matching their query.
+**5. Result Selection:** Finally, we select the top merged search results based on their cumulative scores. This selection ensures that users are presented with the most relevant and authoritative documents matching their query.
 
 This search configuration represents our most effective and efficient approach to retrieving information from the English Wikipedia corpus. It showcases our ability to handle both short and long queries adaptively, ensuring high relevance and quality in the search results presented to the user.
 
