@@ -3,10 +3,14 @@
 This repository contains our final project for the Information Retrieval course at Ben-Gurion University, Israel. Our task was to develop a search engine based on the English Wikipedia corpus, enabling searches by title, body, or anchor text. The project encompasses building indexes for each main part of the document and implementing different retrieval methods to efficiently retrieve documents.
 
 # Project Structure
-inverted_index_gcp.py: Implements the creation of an inverted index, leveraging Google Cloud and the Spark library for index computation.
-retrieval.py: Contains the implementation of the main retrieval methods used by our search engine, including Boolean model, Cosine Similarity, and BM25.
-search_frontend.py: A Flask application that provides a RESTful API for interacting with the search engine, including endpoints for search and retrieving PageRank and pageview data.
-Setup and Installation
+
+**inverted_index_gcp.py:** Implements the creation of an inverted index, leveraging Google Cloud and the Spark library for index computation.
+
+**retrieval.py:** Contains the implementation of the main retrieval methods used by our search engine, including Boolean model, Cosine Similarity, and BM25.
+
+**search_frontend.py:** A Flask application that provides a RESTful API for interacting with the search engine, including endpoints for search and retrieving PageRank and pageview data.
+
+*Setup and Installation*
 Prerequisites
 Python 3.x
 Flask
